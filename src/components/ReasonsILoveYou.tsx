@@ -4,8 +4,6 @@ import { Heart, Sparkles } from 'lucide-react';
 const reasons = [
   "Your beautiful smile that lights up my world",
   "The way you laugh at my silly jokes",
-  "How you always know when I need a hug",
-  "Your kindness that inspires me every day",
   "The way you make ordinary moments magical",
   "Your strength and determination",
   "How you always believe in me",
