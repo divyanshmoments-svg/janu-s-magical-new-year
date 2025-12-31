@@ -3,9 +3,11 @@ import { AnimatePresence, motion } from 'framer-motion';
 import WelcomeScreen from '@/components/WelcomeScreen';
 import Stars from '@/components/Stars';
 import CountdownTimer from '@/components/CountdownTimer';
+import CuteCards from '@/components/CuteCards';
 import ReasonsILoveYou from '@/components/ReasonsILoveYou';
 import LoveLetter from '@/components/LoveLetter';
 import FinalReveal from '@/components/FinalReveal';
+import MidnightCelebration from '@/components/MidnightCelebration';
 import { Heart } from 'lucide-react';
 
 const Index = () => {
@@ -29,8 +31,9 @@ const Index = () => {
           transition={{ duration: 0.6 }}
           className="min-h-screen bg-romantic relative overflow-hidden"
         >
-          {/* Background stars */}
+          {/* Background effects */}
           <Stars />
+          <MidnightCelebration />
 
           {/* Header */}
           <header className="relative z-10 py-8 px-6">
@@ -71,6 +74,8 @@ const Index = () => {
             </section>
 
             <CountdownTimer />
+
+            <CuteCards />
             
             <ReasonsILoveYou />
             
